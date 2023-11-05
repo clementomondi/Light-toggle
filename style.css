@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(93, 136, 136);
+
+}
+
+button {
+  height: 25px;
+  width: 60px;
+  border-radius: 10em;
+  outline: 0;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.lamp-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button span {
+  display: block;
+  background: blue;
+  height: 25px;
+  width: 25px;
+  border-radius: 10em;
+  margin-left: -6px;
+  margin-top: -2px;
+  transition:0.5s;
+}
+
+.lamp {
+  width: 200px;
+}
+
+.light {
+  width: 400px;
+  margin-top: px;
+  margin-left: 140px;
+  opacity: 0;
+  transition:opacity 0.5s;
+}
+
+.active {
+  background-color: green;
+}
+
+.active span{
+  background-color:white;
+  margin-left:30px;
+  }
+  .on{
+  opacity:1;
+  }
